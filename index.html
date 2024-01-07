@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Fernandez CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>Laura<span> Fernández</span></h2>
+        </div>
+        <div class="menu-toggle">
+          <span>&#9776;</span>
+        </div>
+        
+        <ul class="menu">
+          <li><a href="#inicio" class="active">INICIO</a></li>
+          <li><a href="#quien-soy">QUIEN SOY</a></li>
+          <li><a href="#portafolio">PORTAFOLIO</a></li>
+          <li><a href="#habilidades">HABILIDADES</a></li>
+          <li><a href="#educacion">EDUCACION</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main" id="inicio">
+      <!-- Contenido de la sección Inicio -->
+      <div class="info-content">
+        <h1>Soy <span>Laura</span> Fernández del Moral Garcia Consuegra</h1>
+        <a href="img/curriculum.pdf" download="curriculum.pdf">
+          <button class="download-cv">Download CV</button>
+        </a>
+      </div>
+      <img src="img/fotomia.jpg" alt="">
+    </main>
+  </div>
+  <div class="about" id="quien-soy">
+    <!-- Contenido de la sección Quien Soy --> 
+    <img src="img/fotomia.jpg" alt="">
+    <div class="about-info">
+      <h2>Sobre mí</h2>
+      <div class="divider"></div>
+      <p>¡Hola! Soy Laura Fernandez vivo en Ciudad Real y tengo 22 años. Actualmente estoy estudiando 4º de carrera en Ingeniería Informática en la UCLM, en la intensificacion de Tecnología de la Información. Me gusta la programación, el diseño de sistemas y las redes informáticas.</p>
+       <p>Mi tiempo en la universidad no solo me ha proporcionado conocimientos sólidos, sino también la oportunidad de sumergirme en proyectos apasionantes. Me encanta estar al tanto de las últimas tendencias tecnológicas y siempre estoy lista para enfrentar nuevos desafíos.</p>
+    
+      
+    </div>
+  </div>
+  <div class="portfolio" id="portafolio">
+    <!-- Contenido de la sección Portafolio -->
+    <div class="portfolio-heading">
+      <h2>Mi Portfolio</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <div class="card__img"></div>
+        <div class="card__title">
+          <h2>Aplicación Pokedex</h2>
+          <h5>Es un aplicación realizada con Visual Studio donde se ha creado una pokedex donde puedes tener dentro varios pokemons y puedes jugar con ellos o hacer que tengan peleas entre ellos</h5>
+        </div>
+        <div class="card__proyect-links">
+          <a href="https://github.com/AndresGonzalez23/UserControlPokemonUWP.git">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      
+      </div>
+        <div class="card">
+          <div class="card__img1"></div>
+          <div class="card__title">
+            <h2>Aplicación de control de rutas senderistas</h2>
+            <h5>Es una aplicación de rutas senderistas hecha con Visual Studio donde la aplicacion accede a una base de datos para hacer un control de senderistas y de las excursiones </h5>
+          </div>
+          <div class="card__proyect-links">
+            <a href="https://github.com/pedroocampos/Practica-IPO.git">
+              <i class="fab fa-github"></i>
+            </a>
+            
+          </div>
+         
+        </div>
+        <div class="card">
+          <div class="card__img2"></div>
+          <div class="card__title">
+            <h2>Aplicacion Cancionfly</h2>
+            <h5>Es una aplicación creada con Visual Studio donde se accede a un repositorio de musica y la información de cada canción</h5>
+          </div>
+          <div class="card__proyect-links">
+            <a href="https://github.com/laurafdlm/canfionfy.git">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+   </div>
+   <div id="project-modal" class="modal">
+    <div id="modal-content" class="modal-content">
+      <span class="close-button">&times;</span>
+    </div>
+  </div>
+  </div>
+
+  <div class="timelineh2" id="educacion">
+    
+    <h2>Educación</h2>
+    <div class="divider"></div>
+    <div class="timeline">
+      <!-- Contenido de la línea de tiempo -->
+      <li class="event" data-date="2013">
+        <h3>Educacion Secundaria Obligatoria Bilingüe </h3>
+        <p>En el instituto IES Torreón de Alcazár </p>
+      </li>
+      <li class="event" data-date="2017">
+        <h3>Bachillerato de Ciencias</h3>
+        <p>"En el IES Torreón de Alcazár</p>
+      </li>
+      <li class="event" data-date="2019">
+        <h3>Grado en Ingeniería informática</h3>
+        <p>"En la Escuela Superior de informática UCLM</p>
+      </li>
+    </div>
+  </div>
+  <div class="habilidades-section" id="habilidades">
+    <!-- Contenido de la sección Habilidades -->
+    <div class="habilidades-heading">
+      <h2>Habilidades</h2>
+      <div class="divider"></div>
+    </div>
+    <!-- Contenido de la sección Habilidades -->
+    <div class="habilidades-content">
+      <div class="habilidad">
+          <img src="img/adaptividad.png" alt="creatividad">
+          <p>Adaptividad</p>
+      </div>
+      <div class="habilidad">
+        <img src="img/creatividad.png" alt="creatividad">
+        <p>Creatividad</p>
+    </div>
+    <div class="habilidad">
+      <img src="img/trabajo.png" alt="creatividad">
+      <p>Trabajo en equipo</p>
+  </div>
+  <div class="habilidad">
+    <img src="img/comunicacion.png" alt="creatividad">
+    <p>Comunicación</p>
+  </div>
+  <div class="habilidad">
+    <img src="img/iniciativa.png" alt="creatividad">
+    <p>Iniciativa</p>
+    </div>
+    
+    
+  </div>
+  <div class="conocimientos-container">
+    <div class="columna-izquierda">
+        <h3>Lenguajes de Programación</h3>
+        <div class="divider"></div>
+        <h4>Python</h4>
+        <div class="barra-conocimiento" style="width: 70%;"></div>
+        <h4>C++</h4>
+        <div class="barra-conocimiento" style="width: 50%;"></div>
+        <h4>C</h4>
+        <div class="barra-conocimiento" style="width: 30%;"></div>
+        <h4>JavaScript</h4>
+        <div class="barra-conocimiento" style="width: 50%;"></div>
+        <h4>Java</h4>
+        <div class="barra-conocimiento" style="width: 75%;"></div>
+        <h4>Html/css</h4>
+        <div class="barra-conocimiento" style="width: 60%;"></div>
+        <h4>SQL</h4>
+        <div class="barra-conocimiento" style="width: 65%;"></div>
+        <h4>Dart</h4>
+        <div class="barra-conocimiento" style="width: 30%;"></div>
+        <!-- Agrega más programas y herramientas según sea necesario -->
+    </div>
+
+    <div class="columna-centro">
+        <h3>Programas y Herramientas</h3>
+        <div class="divider"></div>
+        <h4>Eclipse</h4>
+        <div class="barra-conocimiento" style="width: 70%;"></div>
+        <h4>Visual Studio Code</h4>
+        <div class="barra-conocimiento" style="width: 50%;"></div>
+        <h4>MySQL</h4>
+        <div class="barra-conocimiento" style="width: 65%;"></div>
+        <h4>Git</h4>
+        <div class="barra-conocimiento" style="width: 60%;"></div>
+        <h4>Visual Studio</h4>
+        <div class="barra-conocimiento" style="width: 30%;"></div>
+        <h4>Prestashop</h4>
+        <div class="barra-conocimiento" style="width: 20%;"></div>
+        <h4>Flutter</h4>
+        <div class="barra-conocimiento" style="width: 20%;"></div>
+        
+        <!-- Agrega más lenguajes de programación según sea necesario -->
+    </div>
+
+    <div class="columna-derecha">
+        <h3>Idiomas</h3>
+        <div class="divider"></div>
+        <h4>Español</h4>
+        <div class="barra-conocimiento" style="width: 100%;"></div>
+        <h4>Ingles</h4>
+        <div class="barra-conocimiento" style="width: 70%;"></div>
+        <h4>Francés</h4>
+        <div class="barra-conocimiento" style="width: 40%;"></div>
+        
+        <!-- Agrega más barras de conocimiento según sea necesario -->
+    </div>
+</div>
+
+</div>
+
+  <footer class="footer" id="contacto"> 
+    <h2>¡Contacta conmigo!</h2>
+    <div class="footer-content">
+      <h2>Laura Fernández</h2>
+    </div>
+    <div class="sotial-networks">
+      <a href="mailto:laurafernandezdm@gmail.com" target="_blank">
+        <i class="far fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/laura-fern%C3%A1ndez-320286210/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script
